@@ -1,0 +1,415 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+html,
+body {
+    background-color: black;
+    height: 100%;
+    display: grid;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: start;
+
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.tab_a {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 550px;
+    text-align: center;
+
+    height: 1140px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tab_a span {
+    text-transform: uppercase;
+    display: block;
+}
+
+.text_tab_a_top {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: #000;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text_tab_a_botton {
+    color: aliceblue;
+    font-size: 30px
+}
+
+@keyframes text {
+    0% {
+        color: #000;
+        margin-bottom: -75px;
+    }
+
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -75px;
+    }
+
+    55% {
+        letter-spacing: 8px;
+        margin-bottom: -75px;
+    }
+}
+
+
+.right_card {
+    max-width: 50%;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto1 {
+    width: 500px;
+}
+
+.left_card {
+    max-width: 50%;
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.right_card p {
+    margin-right: 60px;
+    font-size: 23px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 60PX;
+}
+
+.right_card h3 {
+    font-size: 170%;
+    font-family: Arial black, Helvetica, sans-serif;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_card img {
+    padding: 15px;
+    width: 500px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.left_card img {
+    padding-left: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 500px;
+
+}
+
+.left_card p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    font-size: 700;
+    padding: 10px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_card h3 {
+    font-size: 200%;
+    font-family: Arial black, Helvetica, sans-serif;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_anime {
+    margin: 20px;
+}
+
+.tab {
+    margin: 0 0 30px 30px;
+    justify-content: center;
+    overflow: hidden;
+    border: 5px solid #fff;
+    color: #fff;
+    margin: 20px;
+    font-size: 25px;
+    height: 200px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.oneCard {
+    color: #fff;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 100PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oneCard img {
+    width: 600px;
+}
+
+.twoCard {
+    color: #fff;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 100PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.twoCard img {
+    width: 600px;
+}
+
+.threeCard {
+    color: #fff;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 100PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foreCard {
+    color: #fff;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 100PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foreCard img {
+    width: 550px;
+}
+
+.fiveCard {
+    color: #fff;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 100PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fiveCard img {
+    width: 500px;
+}
+
+.sixCard {
+    margin: 20px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sixLeft_card {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+}
+
+.sixLeft_card p {
+    font-size: 22px;
+    width: 450px;
+    padding-right: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+}
+
+.sixLeft_card img {
+    border: 10px solid #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    animation: ava-animation 10s infinite alternate;
+}
+
+
+
+.sixCenter_card {
+    font-size: 170%;
+    font-family: Arial black, Helvetica, sans-serif;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.sixRight_card {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+.sixRight_card img {
+    border: 10px solid #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    animation: ava-animation 10s infinite alternate;
+}
+
+.sixRight_card p {
+    font-size: 22px;
+    width: 450px;
+    padding-left: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+
+
+
+.sixRight_card img {
+    width: 350px;
+}
+
+.sixLeft_card img {
+    height: 533.328px;
+    width: 350px;
+}
+
+.sevenCard {
+    color: #fff;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 100PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sevenCard img {
+    left: 100px;
+    width: 450px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.eighteCard img {
+    height: 593.328px;
+    width: 450px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.eighteCard {
+    color: #fff;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 100PX;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.end {
+
+    font-size: 50PX;
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.end a {
+    text-decoration: none;
+    color: azure;
+}
+
+.hero_box {
+    margin: 0 70px 0 70px;
+    justify-content: center;
+    overflow: hidden;
+    border: 10px solid #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    animation: ava-animation 10s infinite alternate;
+}
+
+@keyframes ava-animation {
+    0% {
+        border-radius: 95% 5% 95% 5% / 4% 92% 8% 96%;
+
+    }
+
+    10% {
+        border-radius: 78% 22% 80% 20% / 15% 73% 27% 85%;
+    }
+
+    20% {
+        border-radius: 68% 32% 69% 31% / 25% 59% 41% 75%;
+    }
+
+    30% {
+        border-radius: 50% 50% 54% 46% / 48% 47% 53% 52%;
+    }
+
+    40% {
+        border-radius: 35% 65% 38% 62% / 59% 28% 72% 41%;
+    }
+
+    50% {
+        border-radius: 14% 86% 15% 85% / 84% 9% 91% 16%;
+    }
+
+    60% {
+        border-radius: 35% 65% 38% 62% / 59% 28% 72% 41%;
+    }
+
+    70% {
+        border-radius: 50% 50% 54% 46% / 48% 47% 53% 52%;
+    }
+
+    80% {
+        border-radius: 68% 32% 69% 31% / 25% 59% 41% 75%;
+    }
+
+    90% {
+        border-radius: 78% 22% 80% 20% / 15% 73% 27% 85%;
+    }
+
+    100% {
+        border-radius: 95% 5% 95% 5% / 4% 92% 8% 96%;
+    }
+}
